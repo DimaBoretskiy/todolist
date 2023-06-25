@@ -27,7 +27,7 @@ function updateTodo(){
         '<input checked onclick="updateStatus('+index+')" type="checkbox" >' 
         :'<input onclick="updateStatus('+index+')" type="checkbox" >'
       
-        todoContainer.innerHTML += '<li>' + newInput + element.name + '<button onclick="deleteTodo('+index+')">Удалить</button></li>';
+        todoContainer.innerHTML += '<li>' +  newInput + '<span class="listDesc">' + element.name + '</span>' +'<button class = "delete" onclick="deleteTodo('+index+')">Удалить</button></li>';
     });
 }
 
