@@ -18,7 +18,7 @@
   width: 100%;
  
 }
-#addButton{
+.addButton{
   background-color: green;
   border: 0;
   color: white;
@@ -28,25 +28,25 @@
   transition: all .25s;
   margin-bottom: 20px;
 }
-#addButton:hover{
+.addButton:hover{
   background-color: darkgreen;
 }
 
-#addInput{
+.todoInput{
   padding: 12px 16px;
   border-radius: 12px;
   border:  1px solid black;
   margin-bottom: 24px;
 }
 
-#todoList{
+.list{
   width: 100%;
   list-style-type: none;
   margin: 20px 0 20px 0 ;
   padding: 0;
 }
 
-#todoList li {
+.item {
 display: flex;
 justify-content: space-between;
 align-items: center;
