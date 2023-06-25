@@ -1,4 +1,69 @@
-* {
-   
-    margin: 10px;
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+.title{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.listWrapper{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+ 
+}
+.addButton{
+  background-color: green;
+  border: 0;
+  color: white;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all .25s;
+  margin-bottom: 20px;
+}
+.addButton:hover{
+  background-color: darkgreen;
+}
+
+.todoInput{
+  padding: 12px 16px;
+  border-radius: 12px;
+  border:  1px solid black;
+  margin-bottom: 24px;
+}
+
+.list{
+  width: 100%;
+  list-style-type: none;
+  margin: 20px 0 20px 0 ;
+  padding: 0;
+}
+
+.item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}
+.delete{
+  background-color: white;
+  border-radius:12px;
+  padding: 6px 8px;
+  border: 2px solid rgb(144, 24, 24);
+  color: rgb(144, 24, 24) ;
+  cursor: pointer;
+  transition: all .25s;
+  
+}
+
+.delete:hover{
+  background-color: rgb(144, 24, 24);
+  color: white;
+}
